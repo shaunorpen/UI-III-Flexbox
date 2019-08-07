@@ -65,10 +65,95 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+body {
+	background-color: black;
+}
+
 .container {
+	background-color: white;
 	display: flex;
 	flex-direction: column;
 	width: 1024px;
 	margin: 0 auto;
 	padding: 20px 40px;
+	/* border: 1px solid red; */
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	color: grey;
+}
+
+.callToAction {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 0px 40px 0px;
+
+}
+
+.jumbotronLeft, .jumbotronRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.jumbotronLeft h1 {
+	font-size: 5em;
+	text-align: center;
+}
+
+.jumbotronLeft a {
+	border: 1px solid black;
+	padding: 10px 50px;
+	text-decoration: none;
+	color: black;
+}
+
+.twoColumns {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	border-top: 1px solid black;
+	padding: 20px 0px 30px 0px;
+}
+
+.twoColumn {
+	padding: 5px;
+}
+
+.fullWidth img {
+	width: 100%;
+}
+
+.threeColumns {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px;
+	border-bottom: 1px solid black;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 20px;
+	height: 120px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	text-align: center;
+	margin-bottom: 50px;
 }
