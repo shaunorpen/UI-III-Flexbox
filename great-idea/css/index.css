@@ -86,6 +86,10 @@ nav {
 	align-items: center;
 	font-weight: bold;
 	margin-bottom: 20px;
+	position: fixed;
+	width: 890px;
+	top: 0;
+	background-color: white;
 }
 
 nav a {
@@ -221,4 +225,8 @@ ul {
 
 li {
 	margin: 0.5em 0em;
+}
+
+.services-header-img {
+	margin-top: 60px;
 }
