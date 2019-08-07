@@ -75,7 +75,7 @@ body {
 	flex-direction: column;
 	width: 1024px;
 	margin: 0 auto;
-	padding: 20px 40px;
+	padding: 20px 72px;
 	/* border: 1px solid red; */
 }
 
@@ -156,4 +156,58 @@ nav a {
 .footer {
 	text-align: center;
 	margin-bottom: 50px;
+}
+
+.servicesContainer {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+
+.service {
+	border: 1px solid black;
+	width: 420px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+	background-color: #F4F3F4;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.service a {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 50px;
+	display: block;
+	margin-top: 10px;
+	text-decoration: none;
+	font-size: 0.75em;
+}
+
+.factsSection {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.facts {
+	width: 440px;
+}
+
+footer {
+	text-align: center;
+}
+
+header h1 {
+	font-size: 1.5em;
+}
+
+header {
+	padding: 30px 0px;
 }
