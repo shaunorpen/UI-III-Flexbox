@@ -64,3 +64,169 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	background-color: black;
+}
+
+.container {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	width: 1024px;
+	margin: 0 auto;
+	padding: 20px 72px;
+	/* border: 1px solid red; */
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+	position: fixed;
+	width: 890px;
+	top: 0;
+	background-color: white;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	color: grey;
+}
+
+.callToAction {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 0px 40px 0px;
+
+}
+
+.jumbotronLeft, .jumbotronRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.jumbotronLeft h1 {
+	font-size: 5em;
+	text-align: center;
+}
+
+.jumbotronLeft a {
+	border: 1px solid black;
+	padding: 10px 50px;
+	text-decoration: none;
+	color: black;
+}
+
+.twoColumns {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	border-top: 1px solid black;
+	padding: 20px 0px 30px 0px;
+}
+
+.twoColumn {
+	padding: 5px;
+}
+
+.fullWidth img {
+	width: 100%;
+}
+
+.threeColumns {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 10px;
+	border-bottom: 1px solid black;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 20px;
+	height: 120px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.servicesContainer {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+
+.service {
+	border: 1px solid black;
+	width: 420px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #F4F3F4;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.service a {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 50px;
+	display: block;
+	margin-top: 10px;
+	text-decoration: none;
+	font-size: 0.75em;
+}
+
+.factsSection {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.facts {
+	width: 420px;
+}
+
+footer {
+	text-align: center;
+}
+
+header h1 {
+	font-size: 1.5em;
+}
+
+header {
+	padding: 30px 0px;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	padding-top: 15px;
+}
+
+li {
+	margin: 0.5em 0em;
+}
+
+.services-header-img {
+	margin-top: 60px;
+}
